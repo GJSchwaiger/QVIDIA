@@ -1,0 +1,9 @@
+{
+ "name": "IEEE 14-bus, 6 piece 2",
+ "source": "MATPOWER case14.m (https://github.com/MATPOWER/matpower/blob/master/data/case14.m), converted from the public IEEE Common Data Format file in the UW Power Systems Test Case Archive (https://labs.ece.uw.edu/pstca/).",
+ "buses": [1, 2, 3, 4, 5, 7],
+ "lines": [[1, 2], [1, 5], [2, 3], [2, 4], [2, 5], [3, 4], [4, 5], [4, 7]],
+ "zero_injection": [7],
+ "generator_buses": [1, 2, 3],
+ "load_mw": {"1": 0, "2": 21.7, "3": 94.2, "4": 47.8, "5": 7.6, "7": 0}
+}
